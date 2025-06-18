@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeeperLearning</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">DeepLearning</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./fases.html">Fases PI</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./propuesta.html">Propuesta PI</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <br><br>
+    <div class="container my-5">
+        <h3 class="mb-4">🚀 Proyecto Integrador: Plataforma de Gestión para Creadores de Contenido</h3>
+
+        <div class="alert alert-primary">
+            <strong>🎯 Objetivo general:</strong> El reto consiste en diseñar y construir, de forma progresiva y por
+            niveles, una plataforma digital dirigida a influencers y creadores de contenido que les permita gestionar
+            aspectos clave de su trabajo digital, incluyendo:
+            <br>
+            -Un sistema de registro e inicio de sesión seguro para influencers y marcas.
+            <br>
+            -Un panel para que el influencer pueda crear y mostrar sus publicaciones, portafolio o campañas activas.
+            <br>
+            -Un módulo donde los anunciantes o marcas puedan enviar solicitudes de colaboración o contratos, que el
+            influencer puede aceptar o rechazar.
+            <br>
+            -Un sistema para visualizar estadísticas básicas de interacción y actividad (número de campañas,
+            publicaciones activas, contratos realizados, etc.).
+
+
+        </div>
+
+        <!-- Nivel 1 -->
+        <div class="mb-3">
+            <button class="btn btn-outline-primary w-100 text-start" data-bs-toggle="collapse" data-bs-target="#nivel1">
+                Nivel 1: Fundamentos – Diseño, maquetación y lógica básica
+            </button>
+            <div class="collapse mt-2" id="nivel1">
+                <div class="alert alert-info">
+                    <strong>Objetivo del nivel:</strong> Comprender los fundamentos de desarrollo web, lógica de
+                    programación y bases de datos mediante la construcción de las pantallas base (Login, Registro,
+                    Perfil), validaciones iniciales y diseño del modelo de datos.
+                </div>
+
+                <ul class="list-group mb-3">
+                    <li class="list-group-item">
+                        <strong>HTML/CSS</strong><br>
+                        <em>Objetivo:</em> Diseñar pantallas web responsivas usando HTML semántico y CSS con
+                        frameworks.<br>
+                        <strong>Entregables:</strong>
+                        <ul>
+                            <li>Semana 6: Maqueta estática (login y registro) con Bootstrap.</li>
+                            <li>Semana 12: Página de perfil editable y sección pública (con grid).</li>
+                            <li>Semana 18: Integración de vistas en una única plantilla navegable.</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Lógica de Programación (Java)</strong><br>
+                        <em>Objetivo:</em> Aplicar estructuras de control, funciones y estructuras de datos básicas
+                        (arreglos, objetos) para procesar formularios de manera simulada.<br>
+                        <strong>Entregables:</strong>
+                        <ul>
+                            <li>Semana 6: Lógica de validación (campos vacíos, formato correo, confirmación de
+                                contraseña).</li>
+                            <li>Semana 12: Algoritmos de navegación entre vistas (simulado).</li>
+                            <li>Semana 18: Simulación de almacenamiento en estructuras internas (ArrayList).</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Base de Datos (MySQL)</strong><br>
+                        <em>Objetivo:</em> Modelar entidades básicas y relaciones entre usuarios, roles, publicaciones y
+                        comentarios.<br>
+                        <strong>Entregables:</strong>
+                        <ul>
+                            <li>Semana 6: Modelo E-R y normalización.</li>
+                            <li>Semana 12: Script de creación y carga de datos.</li>
+                            <li>Semana 18: Relación de tablas y consultas básicas con JOIN.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Nivel 2 -->
+        <div class="mb-3">
+            <button class="btn btn-outline-success w-100 text-start" data-bs-toggle="collapse" data-bs-target="#nivel2">
+                Nivel 2: Conectividad – Interactividad, validación, backend básico y agilidad
+            </button>
+            <div class="collapse mt-2" id="nivel2">
+                <div class="alert alert-success">
+                    <strong>Objetivo del nivel:</strong> Establecer la conexión real entre frontend y backend, usando
+                    programación orientada a objetos y lógica en capas. Introducir herramientas ágiles de trabajo
+                    colaborativo.
+                </div>
+
+                <ul class="list-group mb-3">
+                    <li class="list-group-item">
+                        <strong>Frontend 1 (JavaScript)</strong><br>
+                        <em>Objetivo:</em> Manipular el DOM, validar formularios en tiempo real, gestionar estados y
+                        eventos.<br>
+                        <strong>Entregables:</strong>
+                        <ul>
+                            <li>Semana 6: Validaciones con JS (feedback visual, errores).</li>
+                            <li>Semana 12: Navegación dinámica entre vistas (SPA básica sin React).</li>
+                            <li>Semana 18: Interacción con respuestas simuladas (JSON local).</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Backend 1 (POO con Java)</strong><br>
+                        <em>Objetivo:</em> Modelar entidades, relaciones y controladores usando programación orientada a
+                        objetos.<br>
+                        <strong>Entregables:</strong>
+                        <ul>
+                            <li>Semana 6: Clases Usuario, Registro, Perfil, con constructores y getters/setters.</li>
+                            <li>Semana 12: Servicios y DTO para estructurar lógica.</li>
+                            <li>Semana 18: Simulación de persistencia con conexión JDBC a MySQL.</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Metodologías Ágiles</strong><br>
+                        <em>Objetivo:</em> Comprender e implementar Scrum como metodología de trabajo por sprints.<br>
+                        <strong>Entregables:</strong>
+                        <ul>
+                            <li>Semana 6: Mapeo de historias de usuario y asignación de roles.</li>
+                            <li>Semana 12: Tablero Kanban activo (Trello o físico) + control de tareas.</li>
+                            <li>Semana 18: Retrospectiva del equipo con aprendizajes y dificultades.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Nivel 3 -->
+        <div class="mb-3">
+            <button class="btn btn-outline-warning w-100 text-start" data-bs-toggle="collapse" data-bs-target="#nivel3">
+                Nivel 3: Profesionalización – API, SPA React y análisis de datos
+            </button>
+            <div class="collapse mt-2" id="nivel3">
+                <div class="alert alert-warning">
+                    <strong>Objetivo del nivel:</strong> Consolidar una aplicación funcional que conecte cliente y
+                    servidor mediante una API REST, visualizar datos dinámicos desde React y generar reportes analíticos
+                    básicos desde fuentes de datos.
+                </div>
+
+                <ul class="list-group mb-3">
+                    <li class="list-group-item">
+                        <strong>Backend 2 (Spring Boot)</strong><br>
+                        <em>Objetivo:</em> Construir una API REST con estructura por capas y control de acceso.<br>
+                        <strong>Entregables:</strong>
+                        <ul>
+                            <li>Semana 6: Controladores, entidades, servicios, DTO, validaciones.</li>
+                            <li>Semana 12: Documentación de endpoints (Swagger/Postman).</li>
+                            <li>Semana 18: Pruebas con roles de usuario y gestión de errores.</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Frontend 2 (React)</strong><br>
+                        <em>Objetivo:</em> Crear una SPA funcional que consuma la API REST y renderice vistas
+                        dinámicas.<br>
+                        <strong>Entregables:</strong>
+                        <ul>
+                            <li>Semana 6: Login y registro funcional con React (useState, fetch).</li>
+                            <li>Semana 12: Vista de perfil y feed dinámico.</li>
+                            <li>Semana 18: Integración completa con backend (axios, navegación SPA).</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Nuevas Tecnologías (Python y Análisis de Datos)</strong><br>
+                        <em>Objetivo:</em> Extraer y procesar datos desde la base, generar reportes y
+                        visualizaciones.<br>
+                        <strong>Entregables:</strong>
+                        <ul>
+                            <li>Semana 6: Importación de datos (CSV/SQL) y limpieza con pandas.</li>
+                            <li>Semana 12: Cálculo de métricas (número de usuarios, publicaciones, comentarios).</li>
+                            <li>Semana 18: Reporte final en notebook con visualizaciones (matplotlib/seaborn).</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+
+        <!-- Fila 1: ¿Cómo se presenta y evalúa el proyecto? -->
+        <div class="row mb-5 align-items-start">
+            <div class="col-md-4">
+                <img src="./img/gente-de-tiro-medio-en-la-radio.jpg" class="img-fluid rounded shadow" alt="Presentación final">
+            </div>
+            <div class="col-md-8">
+                <h5>🎓 Presentación y Evaluación del Proyecto</h5>
+                <p>Más allá de una entrega física o un pitch tradicional, el proyecto debe tener una <strong>forma de
+                        presentación multimedia</strong> que refleje el proceso, la evolución técnica y las competencias
+                    desarrolladas.</p>
+
+                <ul>
+                    <li><strong>Entregable sugerido:</strong> micrositio web o video navegable donde se explique qué
+                        hace la plataforma, cómo fue construida, roles del equipo y resultados.</li>
+                    <li><strong>Herramientas recomendadas:</strong> Genially, Google Sites, Notion, Canva Web Story o
+                        incluso grabación de pantalla con OBS Studio o Loom.</li>
+                    <li><strong>Evaluación:</strong> rúbrica integral que incluya criterios técnicos (funcionalidad,
+                        estructura del código, uso de patrones), trabajo en equipo, reflexión individual y
+                        documentación.</li>
+                    <li><strong>Referencias académicas:</strong> Buzón García et al. (2021) sugieren el uso de
+                        presentaciones digitales interactivas como evidencia auténtica de aprendizaje basado en
+                        proyectos con TIC.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Fila 2: ¿Es integrable con el programa de Electromecánica? -->
+        <div class="row mb-5 align-items-start amarillo p-5">
+            <div class="col-md-4">
+                <img src="./img/electro (2).jpg" class="img-fluid rounded shadow"
+                    alt="Integración con otros programas">
+            </div>
+            <div class="col-md-8">
+                <h5>🔗 Integración con el programa de Electromecánica</h5>
+                <p>Este proyecto puede tener una versión extendida o paralela integrable con el programa de
+                    Electromecánica a través de:</p>
+
+                <ul>
+                    <li><strong>Monitoreo de equipos o sistemas físicos</strong>: sensores IoT que capturan variables de
+                        operación (temperatura, energía, ciclos).</li>
+                    <li><strong>Backend común para reportes de mantenimiento</strong>: donde electromecánicos envían
+                        datos y los tecnólogos TIC los procesan y visualizan.</li>
+                    <li><strong>Dashboard conjunto:</strong> visualizar datos en tiempo real o generar reportes
+                        automáticos desde la planta hasta la plataforma web.</li>
+                    <li><strong>Aprendizaje dual colaborativo:</strong> estudiantes TIC hacen la interfaz y el análisis;
+                        electromecánicos proveen datos reales desde el taller o simulador.</li>
+                </ul>
+                <p><em>Resultado:</em> experiencia interdisciplinaria, real y escalable para proyectos finales o
+                    competencias integradas.</p>
+            </div>
+        </div>
+
+        <!-- Fila 3: Recomendaciones IEEE -->
+        <div class="row align-items-start">
+            <div class="col-md-4">
+                <img src="./img/ieee.webp" class="img-fluid rounded shadow" alt="IEEE Recommendations">
+            </div>
+            <div class="col-md-8">
+                <h5>📘 Recomendaciones IEEE (Instituto de Ingenieros Eléctricos y Electrónicos) para proyectos formativos TIC</h5>
+                <p>Según publicaciones recientes de la <strong>IEEE Education Society</strong>, los proyectos formativos
+                    en tecnología deben cumplir con ciertas buenas prácticas:</p>
+
+                <ul>
+                    <li>🔹 <strong>Modularidad:</strong> el sistema debe poder dividirse en partes funcionales que se
+                        desarrollen por equipos pequeños.</li>
+                    <li>🔹 <strong>Orientación a resultados y competencias:</strong> el proyecto no solo debe funcionar,
+                        sino evidenciar el desarrollo de capacidades técnicas y blandas.</li>
+                    <li>🔹 <strong>Documentación colaborativa:</strong> cada grupo debe dejar trazabilidad de su proceso
+                        usando herramientas como GitHub, Bitácoras o Markdown Docs.</li>
+                    <li>🔹 <strong>Evaluación continua:</strong> uso de entregas intermedias y revisión por pares para
+                        fomentar la mejora continua.</li>
+                    <li>🔹 <strong>Contexto real y ético:</strong> los casos deben representar una necesidad real del
+                        entorno productivo y ser discutidos desde la ética profesional y la sostenibilidad.</li>
+                </ul>
+
+                <p><strong>Referencia clave:</strong> IEEE Global Engineering Education Conference (EDUCON) – Standards
+                    and Models for Capstone Projects, 2023. <span><a href="https://2023.ieee-educon.org/" target="_blank">ver +</a></span> </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

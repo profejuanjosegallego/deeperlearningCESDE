@@ -1,0 +1,31 @@
+.banner{
+    background-image: url("./img/fondo.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-bottom: 22%;
+    padding-top: 10%;
+
+}
+
+.banner2{
+    background-image: url("./img/fondo2.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25%;
+
+}
+
+.amarillo{
+    background-color: #FDB200;
+}
+
+.img-uniforme {
+  height: 200px; /* o la altura que desees */
+  object-fit: cover;
+  width: 100%;
+}
+
