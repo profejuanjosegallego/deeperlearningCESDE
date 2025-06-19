@@ -3,11 +3,21 @@
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    padding-left: 22%;
-    padding-right: 22%;
-    padding-bottom: 22%;
-    padding-top: 10%;
+    padding: 20%;
+    position:relative;
+    z-index: 1;
+}
 
+.banner::after{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position:absolute;
+    top:0;
+    left:0;
+    content:"";
+    opacity: 0.6;
 }
 
 .banner2{
